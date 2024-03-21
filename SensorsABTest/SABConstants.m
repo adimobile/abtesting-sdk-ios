@@ -22,7 +22,7 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABConstants.h"
+#import "include/SABConstants.h"
 
 // 当前版本号
 NSString *const kSABLibVersion = @"0.1.6";
