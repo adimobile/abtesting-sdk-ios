@@ -22,8 +22,8 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABEventTracker.h"
-#import "SABConstants.h"
+#import "../include/SABEventTracker.h"
+#import "../include/SABConstants.h"
 
 static NSString * const kSALoginId = @"login_id";
 static NSString * const kSADistinctId = @"distinct_id";

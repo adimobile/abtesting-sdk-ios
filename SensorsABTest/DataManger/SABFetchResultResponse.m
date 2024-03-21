@@ -22,11 +22,11 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABFetchResultResponse.h"
-#import "SABJSONUtils.h"
-#import "SABValidUtils.h"
-#import "SABLogBridge.h"
-#import "SABBridge.h"
+#import "../include/SABFetchResultResponse.h"
+#import "../include/SABJSONUtils.h"
+#import "../include/SABValidUtils.h"
+#import "../include/SABLogBridge.h"
+#import "../include/SABBridge.h"
 
 static id dictionaryValueForKey(NSDictionary *dic, NSString *key) {
     if (![SABValidUtils isValidDictionary:dic]) {

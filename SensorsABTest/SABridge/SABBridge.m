@@ -22,9 +22,9 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABBridge.h"
-#import "SABLogBridge.h"
-#import "SABValidUtils.h"
+#import "../include/SABBridge.h"
+#import "../include/SABLogBridge.h"
+#import "../include/SABValidUtils.h"
 
 typedef id (*SAGetPresetPropertiesMethod)(id, SEL);
 typedef void (*SATrackEventMethod)(id, SEL, NSString *, NSDictionary *);

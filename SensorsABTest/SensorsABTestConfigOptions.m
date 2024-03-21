@@ -22,8 +22,8 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SensorsABTestConfigOptions.h"
-#import "SABURLUtils.h"
+#import "include/SensorsABTestConfigOptions.h"
+#import "include/SABURLUtils.h"
 
 @interface SensorsABTestConfigOptions ()
 

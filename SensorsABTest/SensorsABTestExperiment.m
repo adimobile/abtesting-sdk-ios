@@ -22,9 +22,9 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SensorsABTestExperiment.h"
-#import "SABConstants.h"
-#import "SensorsABTestExperiment+Private.h"
+#import "include/SensorsABTestExperiment.h"
+#import "include/SABConstants.h"
+#import "include/SensorsABTestExperiment+Private.h"
 
 @interface SensorsABTestExperiment ()
 

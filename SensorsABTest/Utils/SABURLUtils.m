@@ -22,8 +22,8 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABURLUtils.h"
-#import "SABLogBridge.h"
+#import "../include/SABURLUtils.h"
+#import "../include/SABLogBridge.h"
 
 @interface SABURLUtils()
 @end

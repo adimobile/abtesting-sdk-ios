@@ -23,17 +23,17 @@
 #endif
 
 #import <WebKit/WebKit.h>
-#import "SensorsABTest.h"
-#import "SABLogBridge.h"
-#import "SABBridge.h"
-#import "NSString+SABHelper.h"
-#import "SABManager.h"
-#import "SABConstants.h"
-#import "SABNetwork.h"
-#import "SensorsABTestConfigOptions+Private.h"
-#import "SABRequest.h"
-#import "SABSwizzler.h"
-#import "SensorsABTestExperiment+Private.h"
+#import "include/SensorsABTest.h"
+#import "include/SABLogBridge.h"
+#import "include/SABBridge.h"
+#import "include/NSString+SABHelper.h"
+#import "include/SABManager.h"
+#import "include/SABConstants.h"
+#import "include/SABNetwork.h"
+#import "include/SensorsABTestConfigOptions+Private.h"
+#import "include/SABRequest.h"
+#import "include/SABSwizzler.h"
+#import "include/SensorsABTestExperiment+Private.h"
 
 static SensorsABTest *sharedABTest = nil;
 

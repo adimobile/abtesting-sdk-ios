@@ -22,7 +22,7 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
 #endif
 
-#import "SABLogBridge.h"
+#import "../include/SABLogBridge.h"
 
 typedef void (*SALogMethod)(id,SEL,BOOL,NSString*,NSUInteger,const char*,const char*,NSUInteger,NSInteger);
 
